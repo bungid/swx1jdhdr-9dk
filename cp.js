@@ -1,1 +1,2 @@
-https://github.com/bungid/file/blob/bbd1c5e7e1b887a9ec40ec3432bc144f47bd747a/cp.js
+function copy(rekening) { var nomor_rekening = document.getElementById(rekening); nomor_rekening.select(); document.execCommand("copy"); iqwerty.toast.Toast("Nomor GoPay Berhasil Disalin,silahkan tempel di aplikasi Go-jek"); } function copyVoucher(voucher) { var kode_voucher = document.getElementById(voucher); kode_voucher.select(); document.execCommand("copy"); iqwerty.toast.Toast("Berhasil disalin"); }
+
